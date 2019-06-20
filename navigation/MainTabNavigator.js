@@ -47,9 +47,9 @@ CarsStack.navigationOptions = {
 };
 export default createBottomTabNavigator({
   ShowsStack,
-  ScheduleStack,
   BikesStack,
-  CarsStack
+  CarsStack,
+  ScheduleStack,
 });
 const styles = StyleSheet.create({
   icon:{
