@@ -5,29 +5,9 @@ import Data from '../api/Data';
 
 
 export default class ScheduleScreen extends Component{
-  constructor(props){
-    super(props);
-    this.state = {
-      events:[]
-    }
-  }
-  componentWillMount(){
-    this.renderItems();
-  }
-  renderItems = () =>{
-    return this.state.events.map(function(x){
-      this.setState({
-        events:x
-      })
-    }.bind(this))
-  }
   render(){
-    console.log(this.state.events);
     return(
-      <View style={styles.container}>
-        <Text>Upcoming</Text>
-
-      </View>
+      <Text>Fuck Data</Text>
     )
   }
 }
